@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: row; /* row - main axis */
+    justify-content: center; /* main axis  */
+    align-items: center; /* cross axis  */
+    gap : 20px;
+    height: 100%;
+    width: 100%;
+    border: 20px solid yellow;
+}
+
+.child{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.parent :nth-child(1){
+    order: 1;
+    background-color: red;
+}
+.parent :nth-child(2){
+    order : 3;
+    background-color: yellow;
+}
+.parent :nth-child(3){
+    order: 2;
+    background-color: green;
+}

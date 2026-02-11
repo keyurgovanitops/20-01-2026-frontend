@@ -1,0 +1,22 @@
+.parent {
+    box-sizing: content-box; /* border, padding */
+    display: inline-block;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.second{
+    box-sizing: border-box; /* border, padding */
+    display: inline-block;
+    margin-left: 30px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+
+

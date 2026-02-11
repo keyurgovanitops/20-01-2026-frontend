@@ -1,0 +1,31 @@
+body ,html{
+    height: 200%;
+    border: 2px solid black;
+}
+
+.parent{
+    border: 2px solid red;
+    height: 100%;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box1{
+    position: relative;
+    background-color: green;
+}
+
+.box2{
+    position: sticky;
+    background-color: red;
+}
+
+.box3{
+    background-color: blue;
+}
