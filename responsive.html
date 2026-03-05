@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Broken Layout</title>
+
+		<style>
+			body {
+				margin: 0;
+				font-family: Arial, sans-serif;
+			}
+
+			.navbar {
+				background: #222;
+				color: white;
+				padding: 20px;
+			}
+
+			.navbar ul {
+				display: flex;
+				gap: 40px;
+				list-style: none;
+			}
+
+			.hero {
+				height: 400px;
+				background: #ddd;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 48px;
+			}
+
+			.container {
+				width: 1200px;
+				margin: 40px auto;
+			}
+
+			.cards {
+				display: flex;
+				gap: 30px;
+			}
+
+			.card {
+				background: #f4f4f4;
+				padding: 20px;
+				width: 350px;
+			}
+
+			.sidebar-layout {
+				display: flex;
+				gap: 30px;
+				margin-top: 40px;
+			}
+
+			.sidebar {
+				width: 300px;
+				background: #eee;
+				padding: 20px;
+			}
+
+			.content {
+				width: 800px;
+				background: #fafafa;
+				padding: 20px;
+			}
+
+			.footer {
+				background: #222;
+				color: white;
+				padding: 40px;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar">
+			<ul>
+				<li>Home</li>
+				<li>Products</li>
+				<li>Pricing</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+
+		<section class="hero">Welcome</section>
+
+		<div class="container">
+			<div class="cards">
+				<div class="card">
+					<h3>Card One</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+
+				<div class="card">
+					<h3>Card Two</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+
+				<div class="card">
+					<h3>Card Three</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
+
+			<div class="sidebar-layout">
+				<div class="content">
+					<h2>Main Content</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+						sint autem, dignissimos quidem architecto exercitationem nihil magni
+						unde voluptatem.
+					</p>
+				</div>
+
+				<div class="sidebar">
+					<h3>Sidebar</h3>
+					<p>Links and extra info here.</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">Copyright 2026</footer>
+	</body>
+</html>
