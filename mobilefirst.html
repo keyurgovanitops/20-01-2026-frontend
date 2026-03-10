@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Practice</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: Arial, sans-serif;
+			}
+
+			body {
+				background: #f5f5f5;
+				color: #333;
+			}
+
+			header {
+				background: #111;
+				color: white;
+				padding: 1rem;
+				text-align: center;
+			}
+
+			nav {
+				background: #222;
+				padding: 0.5rem;
+			}
+
+			nav a {
+				display: block;
+				color: white;
+				text-decoration: none;
+				padding: 0.5rem 0;
+			}
+
+			.container {
+				padding: 1rem;
+			}
+
+			.hero {
+				background: #ddd;
+				padding: 2rem 1rem;
+				text-align: center;
+				margin-bottom: 1rem;
+			}
+
+			.cards {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+			}
+
+			.card {
+				background: white;
+				padding: 1rem;
+				border-radius: 8px;
+			}
+
+			.card img {
+				width: 100%;
+				border-radius: 6px;
+				margin-bottom: 0.5rem;
+			}
+
+			.sidebar {
+				background: #eee;
+				padding: 1rem;
+				margin-top: 1rem;
+			}
+
+			footer {
+				background: #111;
+				color: white;
+				text-align: center;
+				padding: 1rem;
+				margin-top: 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>My Website</h1>
+		</header>
+
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">Articles</a>
+			<a href="#">Projects</a>
+			<a href="#">Contact</a>
+		</nav>
+
+		<div class="container">
+			<section class="hero">
+				<h2>Welcome</h2>
+				<p>
+					This section should stretch nicely on bigger screens once you fix it.
+				</p>
+			</section>
+
+			<section class="cards">
+				<div class="card">
+					<img src="https://picsum.photos/400/200" alt="" />
+					<h3>Card One</h3>
+					<p>Some random text for practice layout.</p>
+				</div>
+
+				<div class="card">
+					<img src="https://picsum.photos/401/200" alt="" />
+					<h3>Card Two</h3>
+					<p>More text so the layout feels real.</p>
+				</div>
+
+				<div class="card">
+					<img src="https://picsum.photos/402/200" alt="" />
+					<h3>Card Three</h3>
+					<p>Another card so you can convert this to grid later.</p>
+				</div>
+			</section>
+
+			<aside class="sidebar">
+				<h3>Sidebar</h3>
+				<p>
+					This will look stupid on big screens until you move it beside the
+					cards.
+				</p>
+			</aside>
+		</div>
+
+		<footer>
+			<p>© 2026 My Website</p>
+		</footer>
+	</body>
+</html>
