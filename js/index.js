@@ -7,8 +7,6 @@
 static - data-type -> can not change data-type at runtime
 dynamic - data-type -> can change at runtime
 
-
-
 // compiler - c || javascript - interpreter/engine - v8
 // compiler -> program -> machine code 
 // interpreter -> line by line
