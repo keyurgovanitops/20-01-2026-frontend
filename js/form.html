@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form style="width:300px; margin:20px auto; font-family:Arial;">
+  
+    <h2 style="text-align:center;">Contact Form</h2>
+    
+    <label style="display:block; margin-top:10px;">Name:</label>
+    <input type="text" style="width:100%; padding:8px; margin-top:5px; border:1px solid #ccc;" id="nameInput">
+    <p id="nameerror"></p>
+    
+    <label style="display:block; margin-top:10px;">Email:</label>
+    <input type="email" style="width:100%; padding:8px; margin-top:5px; border:1px solid #ccc;" id="emailInput">
+    <p id="emailerror"></p>
+    
+    <label style="display:block; margin-top:10px;">Message:</label>
+    <textarea style="width:100%; padding:8px; margin-top:5px; border:1px solid #ccc;" id="messageInput"></textarea>
+    <p id="messageerror"></p>
+    
+    <label> 
+        <input type="radio" name="gender" value="male"/> Male
+    </label>
+    
+    <label> 
+        <input type="radio" name="gender" value="female"/> Female
+    </label>
+    
+    
+
+    
+    <button type="submit" 
+        id="submitBtn"
+        style="margin-top:15px; width:100%; padding:10px; background:#007BFF; color:white; border:none; cursor:pointer;">
+        
+        Submit
+    </button>
+    </form>
+</body>
+<script src="./takeinput.js"></script>
+</html>
