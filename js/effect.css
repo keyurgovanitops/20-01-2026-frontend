@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container{
+    min-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid white;
+    min-width: 65%;
+    padding: 20px;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.card1, .card2, .card3{
+    width: 250px;
+    display: flex;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.effect{
+    filter: blur(5px);
+    transform: scale(0.9);
+    transition: all ease-in 0.2s;
+}
+
